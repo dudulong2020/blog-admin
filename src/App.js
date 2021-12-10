@@ -1,7 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+// import Login from './Pages/Login';
+// import Main from './Pages/Main';
 
-function App() {
+const App =() => {
   return (
     <div className="App">
       <header className="App-header">
@@ -18,6 +20,8 @@ function App() {
           Learn React
         </a>
       </header>
+      {/* <Login /> */}
+      {/* <Main /> */}
     </div>
   );
 }
